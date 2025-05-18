@@ -45,6 +45,7 @@ The API will be accessible at http://127.0.0.1:5000/.
 
 ## API Usage
 Endpoint: /heart_disease_pred
+
 Method: POST
 
 ## Description: 
