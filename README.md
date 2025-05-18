@@ -1,4 +1,4 @@
-Heart Disease Prediction API
+# Heart Disease Prediction API
 
 
 This project provides a RESTful API for predicting the likelihood of heart disease based on user input parameters. It utilizes a pre-trained machine learning model to make predictions.
