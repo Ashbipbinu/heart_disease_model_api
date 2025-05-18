@@ -3,7 +3,8 @@
 
 This project provides a RESTful API for predicting the likelihood of heart disease based on user input parameters. It utilizes a pre-trained machine learning model to make predictions.
 
-Features
+# Features
+
 Predicts the presence of heart disease using input health parameters.
 
 Built with Flask for the API framework.
@@ -12,49 +13,45 @@ Includes a trained machine learning model (trained_model.sav).
 
 Ready for deployment on platforms like Heroku (includes Procfile.txt and runtime.txt).
 
-Getting Started
-Prerequisites
+#Getting Started
+## Prerequisites
 Python 3.x installed on your machine.
 
 pip package manager.
 
-Installation
-Clone the repository:
+## Installation
+### 1.Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/Ashbipbinu/heart_disease_model_api.git
+```
+git clone https://github.com/Ashbipbinu/heart_disease_model_api.git 
 cd heart_disease_model_api
-Create and activate a virtual environment (optional but recommended):
 
-bash
-Copy
-Edit
-python -m venv venv
+```
+### 2.Create and activate a virtual environment (optional but recommended):
+
+```python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install the required packages:
+```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Running the Application
+### 3.Install the required packages:
+
+```pip install -r requirements.txt```
+
+### 4.Running the Application
 Start the Flask server:
+```python Heart_API.py```
 
-bash
-Copy
-Edit
-python Heart_API.py
 The API will be accessible at http://127.0.0.1:5000/.
 
-API Usage
+## API Usage
 Endpoint: /heart_disease_pred
 Method: POST
 
-Description: Predicts the likelihood of heart disease based on input parameters.
+##Description: 
 
-Parameters:
+Predicts the likelihood of heart disease based on input parameters.
+
+## Parameters:
 
 age: Age of the individual
 
