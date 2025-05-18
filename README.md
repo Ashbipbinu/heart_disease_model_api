@@ -13,7 +13,7 @@ Includes a trained machine learning model (trained_model.sav).
 
 Ready for deployment on platforms like Heroku (includes Procfile.txt and runtime.txt).
 
-#Getting Started
+# Getting Started
 ## Prerequisites
 Python 3.x installed on your machine.
 
@@ -47,7 +47,7 @@ The API will be accessible at http://127.0.0.1:5000/.
 Endpoint: /heart_disease_pred
 Method: POST
 
-##Description: 
+## Description: 
 
 Predicts the likelihood of heart disease based on input parameters.
 
